@@ -1,0 +1,10 @@
+node_modules
+dist
+.editorconfig
+.eslintrc.js
+.gitignore
+.prettierignore
+.prettier.json
+Dockerfile
+README.md
+tsconfig.eslint.json

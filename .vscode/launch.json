@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program", //　好きな名前にできる
+      "skipFiles": ["<node_internals>/**"], //　nodeランライムの関数には入らないようにする
+      "program": "${workspaceFolder}/src/server.ts", // デバッグしたいファイル
+      "preLaunchTask": "npm: lint",
+      "outFiles": ["${workspaceFolder}/dist/*.js"]
+    }
+  ]
+}
